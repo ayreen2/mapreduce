@@ -53,7 +53,7 @@ for line in sys.stdin:
     # a += b is the same as a = a + b
     # the float function transforms the value
     # to a float data type (like decimal)
-    count_of_values = key.count(key)
+    count_of_values = key.count(value)
     # the previous key for the next iteration is the current key of the this iteration 
     previous_key = key
 
