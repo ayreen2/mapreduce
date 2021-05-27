@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 import sys
-from typing import Counter
 
 # The input will be in the form of key-value pairs
 # It is sorted according to the key
@@ -54,7 +53,7 @@ for line in sys.stdin:
     # a += b is the same as a = a + b
     # the float function transforms the value
     # to a float data type (like decimal)
-    count_of_values += Counter(key)
+    count_of_values = key.count(key)
     # the previous key for the next iteration is the current key of the this iteration 
     previous_key = key
 
